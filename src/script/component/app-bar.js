@@ -6,7 +6,7 @@ class AppBar extends HTMLElement {
     render() {
         this.innerHTML = `
         <div class="container">
-        <p><a href="#home">#Filmfromhome</a></p>
+        <p class="text-danger"><a href="#home">#Filmfromhome</a></p>
         </div>`;
     }
 }
