@@ -4,14 +4,42 @@ html {
     scroll-behavior: smooth;
 }
 
+navbar {
+    z-index: 1;
+}
+
 navbar>span>a {
     text-decoration: none;
 }
 
 .jumbotron {
     height: 500px;
-    background-position: center center;
+    /* background-position: center center; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -550px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .jumbotron {
+        background-position: center center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .jumbotron {
+        background-position: center center;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .jumbotron {
+        background-position: center center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .jumbotron {
+        background-position: center center;
+    }
 }
