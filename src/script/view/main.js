@@ -90,4 +90,4 @@ function showDetail(m) {
 </div>`;
 }
 
-export default main;
+// export default main;
