@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AjiwahyuIN/-Filmfromhome-movieSearch.git"
+    "url": ""
   },
   "author": "ajiwahyu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AjiwahyuIN/-Filmfromhome-movieSearch/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/AjiwahyuIN/-Filmfromhome-movieSearch#readme",
+  "homepage": "",
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
