@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/AjiwahyuIN/Filmfromhome"
   },
   "author": "ajiwahyu",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/AjiwahyuIN/Filmfromhome/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/AjiwahyuIN/Filmfromhome/issues#readme",
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
