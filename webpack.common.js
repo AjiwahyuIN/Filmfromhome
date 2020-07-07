@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const path = require("path");
 
 module.exports = {
@@ -21,6 +22,7 @@ module.exports = {
         }]
     },
     plugins: [
+        new FaviconsWebpackPlugin('./src/img/ic_play2x.png'),
         new HtmlWebpackPlugin({
             filename: path.resolve(__dirname, 'dist/index.html'),
             template: path.resolve(__dirname, 'src/index.html')
